@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         Button bdot=findViewById(R.id.bdot);
         Button bequal=findViewById(R.id.bequal);
         EditText et=findViewById(R.id.et1);
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -176,8 +177,8 @@ public class MainActivity extends AppCompatActivity {
                 {
                     f2=Float.parseFloat(et.getText().toString());
                     f=f1/f2;
-                    String mybad= String.valueOf(f);
-                    et.setText(mybad);
+                    String ans= String.valueOf(f);
+                    et.setText(ans);
                     div=false;
                 }}
 

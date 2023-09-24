@@ -4,15 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter the Number"
+        android:hint="Enter the Number 1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="240dp"
+        android:textColor="@color/black"
         android:id="@+id/et1"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -199,5 +202,17 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
+        android:text="CALCULATOR"
+        android:textColor="#F30909"
+        android:textSize="34sp" />
 
 </RelativeLayout>
